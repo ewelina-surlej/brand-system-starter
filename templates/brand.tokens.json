@@ -1,0 +1,72 @@
+{
+  "$description": "Example brand tokens in DTCG format. Replace the values with the ones from your audit. Tokens with $extensions.status 'review' wait for a decision and should not be used.",
+  "color": {
+    "$type": "color",
+    "brand": {
+      "primary": {
+        "$value": { "colorSpace": "srgb", "components": [0.059, 0.463, 0.431], "hex": "#0F766E" },
+        "$description": "Main brand color",
+        "$extensions": { "status": "canon", "names": { "figma": "Brand/Primary", "web": "--brand-primary" } }
+      },
+      "accent": {
+        "$value": { "colorSpace": "srgb", "components": [1, 0.478, 0.271], "hex": "#FF7A45" },
+        "$description": "Accent, on dark backgrounds only",
+        "$extensions": { "status": "review", "names": { "figma": "Brand/Accent", "web": "--brand-accent" } }
+      }
+    },
+    "text": {
+      "primary": {
+        "$value": { "colorSpace": "srgb", "components": [0.102, 0.102, 0.102], "hex": "#1A1A1A" },
+        "$description": "Main text on light backgrounds",
+        "$extensions": { "status": "canon", "names": { "figma": "Text/Primary", "web": "--text-primary" } }
+      },
+      "on-dark": {
+        "$value": { "colorSpace": "srgb", "components": [1, 1, 1], "hex": "#FFFFFF" },
+        "$description": "Main text on dark backgrounds",
+        "$extensions": { "status": "canon", "names": { "figma": "Text/On dark", "web": "--text-on-dark" } }
+      }
+    }
+  },
+  "font": {
+    "family": {
+      "$type": "fontFamily",
+      "base": { "$value": ["Inter", "sans-serif"] }
+    }
+  },
+  "dimension": {
+    "$type": "dimension",
+    "space": {
+      "s": { "$value": { "value": 8, "unit": "px" } },
+      "m": { "$value": { "value": 16, "unit": "px" } },
+      "l": { "$value": { "value": 32, "unit": "px" } },
+      "xl": { "$value": { "value": 64, "unit": "px" } }
+    },
+    "radius": {
+      "card": { "$value": { "value": 16, "unit": "px" } },
+      "pill": { "$value": { "value": 999, "unit": "px" } }
+    }
+  },
+  "typography": {
+    "$type": "typography",
+    "h1": {
+      "$value": {
+        "fontFamily": "{font.family.base}",
+        "fontSize": { "value": 64, "unit": "px" },
+        "fontWeight": 600,
+        "lineHeight": 1.1,
+        "letterSpacing": { "value": -1, "unit": "px" }
+      },
+      "$extensions": { "status": "canon", "names": { "figma": "Heading/H1", "web": ".h1" } }
+    },
+    "body": {
+      "$value": {
+        "fontFamily": "{font.family.base}",
+        "fontSize": { "value": 18, "unit": "px" },
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": { "value": 0, "unit": "px" }
+      },
+      "$extensions": { "status": "canon", "names": { "figma": "Body/Regular", "web": ".body" } }
+    }
+  }
+}
