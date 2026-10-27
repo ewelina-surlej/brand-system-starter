@@ -1,5 +1,7 @@
 # Brand system starter
 
+![Brand system starter: a skill and templates that help your agent make your brand AI-ready, step by step](.github/cover.png)
+
 A skill and a set of templates that help an AI agent guide you through making your brand AI-ready: audit first, then a canon file, design tokens, assets in one place, generated outputs and format skills, all kept in one Git repository.
 
 It comes with the article *[ARTICLE TITLE AND LINK]*. The article explains the thinking. This package lets your agent follow the same process with you.
