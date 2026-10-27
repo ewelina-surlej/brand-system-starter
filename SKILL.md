@@ -15,7 +15,7 @@ Follow this order. Don't skip ahead, even when the person wants to "just write t
 
 1. **Inventory.** Ask where the brand lives today. Typical sources: brand book (PDF or Figma), Figma libraries, website and its styles or CSS variables, slide templates, asset folders on a shared drive, old documents in a project tool. Ask which tools you can connect to (MCP connectors for Figma, the website builder, etc.) and get read-only access first
 2. **Audit.** Read every source and compare them. Write the result to `audit.md` using `templates/audit.md`. See "How to audit" below
-3. **Decisions.** Walk the person through each `[DECISION]` in the audit. They decide, or tell you who decides. Log each decision with `templates/decision.md`
+3. **Decisions.** Walk the person through each `[DECISION]` in the audit. They decide, or tell you who decides. Log each decision with `templates/decision.md`, one file per decision in `decisions/`. This is where the "why" lives, so the canon can stay short
 4. **Repository.** Help them get a Git repo (ask their developers or IT, use what the company already uses: GitHub, GitLab, Bitbucket, Azure DevOps). Suggest Git LFS for images and fonts. Create the structure below
 5. **Tokens.** Build `tokens/brand.tokens.json` from the audit, in DTCG format (see `templates/brand.tokens.json`). Only values all sources agree on, or values decided in step 3. Undecided values get a `review` status
 6. **Canon.** Write `AGENTS.md` from `templates/AGENTS.md`, and `CLAUDE.md` from `templates/CLAUDE.md`

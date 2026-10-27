@@ -17,8 +17,10 @@ brand-system-starter/
     ├── AGENTS.md          canon skeleton with the usual sections
     ├── CLAUDE.md          one line that makes Claude Code read AGENTS.md
     ├── brand.tokens.json  example tokens in DTCG format
-    └── decision.md        template for one entry in the decision log
+    └── decision.md        template for one entry in the decision log (optional at first)
 ```
+
+The decision log is optional at first. Start it when the first decision from the audit is made: a short note per decision, with what was chosen and why. The canon says *what* the rule is, the log says *why*.
 
 ## How to use it
 
